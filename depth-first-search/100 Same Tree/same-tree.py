@@ -12,7 +12,7 @@ class Solution:
         'NoneType' and unequal values in each branch,
         checking for the next node in the BTS
         """
-
+ 
         if not p and not q: return True
         elif not p or not q: return False
         elif p.val != q.val: return False
