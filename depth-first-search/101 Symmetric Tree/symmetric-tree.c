@@ -12,7 +12,7 @@ bool dfs(struct TreeNode* left, struct TreeNode* right) {
     /*
     Depth-first search structure that utilizes recurisve
     pattern to ultimately check for mirrors in the binary
-    tree. Returns the appropriate response per the prompt
+    tree. Returns the appropriate response per the prompt 
     */
     
     if (!left && !right) {return true;}
